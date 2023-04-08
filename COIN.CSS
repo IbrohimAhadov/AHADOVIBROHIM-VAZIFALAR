@@ -1,4 +1,4 @@
-body{
+/* body{
     box-sizing: border-box;
 
 }
@@ -78,7 +78,7 @@ ul {
 }
 .rasm  {
 margin:10px;
-}
+} */
   /*div.background{ 
     background: url(download.jpg )   repeat;
     border: 2px solid black;
@@ -184,4 +184,35 @@ text-align: center;
 display: flex;
 color: #4CAF50;
 }
-/*
+
+*/
+#main-wrapper{
+  background-color: #fff;
+}
+.uc-offcanvas-wrapper{
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+#preloader{
+  background-color: #706d5d;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}
+#status{
+  background-image:url(pexels-photo-1287089.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  left: 50%;
+  margin: -100px 0  0  -100px;
+  position: absolute;
+  top: 50%;
+  width: 200px;
+}
